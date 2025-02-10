@@ -12,4 +12,5 @@ export interface IEtatRover {
 }
 
 export abstract class Orientation {
+    static Nord: Orientation;
 }
