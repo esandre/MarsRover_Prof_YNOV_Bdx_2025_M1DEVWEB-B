@@ -11,6 +11,9 @@ export interface IEtatRover {
     GetOrientation(): Orientation;
 }
 
-export abstract class Orientation {
-    static Nord: Orientation;
+export class Orientation {
+    static Nord: Orientation = new Orientation();
+    static Sud: Orientation = new Orientation();
+    static Est: Orientation = new Orientation();
+    static Ouest: Orientation = new Orientation();
 }
